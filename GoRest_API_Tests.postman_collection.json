@@ -1,0 +1,139 @@
+{
+	"id": "e95fdd63-e0c4-4ba8-a710-de8da990f758",
+	"name": "GoRest Api Tests",
+	"timestamp": "2026-01-18T16:03:58.921Z",
+	"collection_id": "49374311-4f1839ec-1659-4e15-94df-784935eaffd5",
+	"folder_id": 0,
+	"environment_id": "49374311-0fb02d58-123f-462f-9ccf-46567c129bea",
+	"totalPass": 7,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2026-01-18T16:03:55.196Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "fa5e1f62-84a0-4b4d-b3cf-6f7b675db1e1",
+			"name": "GET - Get all users",
+			"url": "https://gorest.co.in/public/v2/users",
+			"time": 755,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status 200 OK": true,
+				"Response is an array of users": true,
+				"Each user has required fields": true
+			},
+			"testPassFailCounts": {
+				"Status 200 OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is an array of users": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Each user has required fields": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				755
+			],
+			"allTests": [
+				{
+					"Status 200 OK": true,
+					"Response is an array of users": true,
+					"Each user has required fields": true
+				}
+			]
+		},
+		{
+			"id": "64980ccd-bc72-4f0d-8dcb-7083b193f46e",
+			"name": "POST - Create user",
+			"url": "https://gorest.co.in/public/v2/users",
+			"time": 318,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status 201 Created": true,
+				"User has valid id": true
+			},
+			"testPassFailCounts": {
+				"Status 201 Created": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User has valid id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				318
+			],
+			"allTests": [
+				{
+					"Status 201 Created": true,
+					"User has valid id": true
+				}
+			]
+		},
+		{
+			"id": "17ec1519-191b-4b3a-bbcd-6f3323730ec4",
+			"name": "DELETE - Delete user",
+			"url": "https://gorest.co.in/public/v2/users/8335970\n",
+			"time": 322,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status 204 No Content": true,
+				"User deleted successfully": true
+			},
+			"testPassFailCounts": {
+				"Status 204 No Content": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User deleted successfully": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				322
+			],
+			"allTests": [
+				{
+					"Status 204 No Content": true,
+					"User deleted successfully": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1395,
+	"collection": {
+		"requests": [
+			{
+				"id": "fa5e1f62-84a0-4b4d-b3cf-6f7b675db1e1",
+				"method": "GET"
+			},
+			{
+				"id": "64980ccd-bc72-4f0d-8dcb-7083b193f46e",
+				"method": "POST"
+			},
+			{
+				"id": "17ec1519-191b-4b3a-bbcd-6f3323730ec4",
+				"method": "DELETE"
+			}
+		]
+	}
+}
