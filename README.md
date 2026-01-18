@@ -59,4 +59,19 @@ All tests should pass:
 
 ## 👩‍💻 Author
 
-QA Automation Portfolio Project
+QA Automation project developed by Fátimas part of professional portfolio.
+
+Skills demonstrated:
+
+- REST API testing
+- Test automation with Postman
+- JavaScript assertions
+- Dynamic test data handling
+- End-to-end workflow validation
+- GitHub project documentation
+
+
+## 👩‍💻 Author
+
+Fátima Ocaña
+
